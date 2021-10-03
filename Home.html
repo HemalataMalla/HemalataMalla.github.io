@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <title> My Website</title>
+    <link rel ="icon" href="favicon.jpg" type="image/jpg">
+    <meta charset="utf-8">
+    <script src="JavaScript.js"></script>
+    <link rel="stylesheet" href="CSS.css"/>
+  </head>                                  
+</html>
+
+<div class = "navigation">
+  <span class="home" onclick="HomeFun()">Home</span>
+  <span class="about" onclick="AboutFun()" >About</span>
+  <span class="edu" onclick="EduFun()">Education</span>
+  <span class="achi" onclick="AchiFun()">Achievements</span>
+  <span class="cont" onclick="ContFun()">Contact</span>
+</div>
+
+<body class="body">
+  <div id="Home1">
+    <h4> Hemalata Malla</h4>
+    Hello, I'm Hemalata. Welcome to my Website. Hope you will find this website exciting. 
+  </div>
+ <!-- <img src="https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?cs=srgb&dl=pexels-tejas-prajapati-586744.jpg&fm=jpg">
+  <img src="https://drive.google.com/uc?id=1GtoK8OxB2MEr91x92qA2Vyz1lzld62Up">-->
+  <script type="text/javaScript">
+    var dt=new Date();
+    documnet.getElementById('date-time').innerHTML=dt;
+  </script>
+  <p>date-time <span id='date-time'></span>.</p>
+  <script type="text/javaScript">
+    setInterval(function(){
+      var dt=new Date();
+      var dd=String(dt.getDate()).padStart(2,'0');
+      var mm=String(dt.getMonth()+1).padStart(2,'0');
+      var yyyy=dt.getFullYear();
+      document.getElementById('date-time').innerHTML=dd+"-"+mm+"-"+yyyy+"br"+dt.getHours()+":"+dt.getMinutes()+":"+dt.getSeconds();
+    },1000)
+  </script>
+ <!-- <div id="About1">
+    <h4> About</h4>
+  </div>
+  <div id="Edu1">
+    <h4> Education</h4>
+  </div>-->
+</body>

@@ -9,8 +9,14 @@
 	color:  white;
 	/*color:  #f2f2f2;*/
 	text-align: center;
-	padding: 8px 8px;
+	padding: 10px 10px;
 	font-size: 17px;
+}
+
+@media screen and (max-width: 800px){
+	.navigation span{
+		padding: 8px 8px;
+	}
 }
 
 .navigation span:hover{
@@ -92,28 +98,6 @@
 	transform: translate(-10%,-10%);
 	text-align:center;
 }
-/*.body{
-	position: relative;
-	display:  flex;
-	justify-content: center;
-	align-items: center;
-	height:  100vh;
-	width:  100%;
-}
-
-.body::before{
-	content: "";
-	position: absolute;
-	top:  0px;
-	right: 0px;
-	bottom:  0px;
-	left:  0px;
-	background-image: url('background.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	opacity: 0.75;
-}*/
 
 #img{
 
@@ -143,6 +127,12 @@
 	background-color:#D3D3D3 ;
 }
 
+@media screen and (max-width: 800px){
+	.center{
+		width: 78%;
+	}
+}
+
 #Home1{ 
 	text-align: center;
 	color: black;
@@ -168,12 +158,6 @@
 	color: black;
 }
 
-@media screen and (max-width: 800px){
-	.box{
-		width: 90%;
-	}
-}
-
 #ip{
 	height:  25px;
 	width:  300px;
@@ -186,6 +170,12 @@
 	padding-left: 10px;
 	width:  300px;
 	text-align: justify;
+}
+
+@media screen and (max-width: 800px){
+	#ip,#ip1{
+		width: 90%;
+	}
 }
 #get{
 	text-align: center;

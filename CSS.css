@@ -23,6 +23,10 @@
 	color:  black;
 }
 
+.border{
+	background-color: #566573;
+	color: white;
+}
 
 .body{
 
@@ -55,12 +59,6 @@
 	border-collapse:  collapse;
 	padding: 6px;
 	text-align: center;
-}
-
-.border{
-	background-color: #566573;
-/* 	overflow: hidden; */
-	color: white;
 }
 
 .date{

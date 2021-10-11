@@ -57,6 +57,12 @@
 	text-align: center;
 }
 
+.border{
+	background-color: #566573;
+	overflow: hidden;
+	color: white;
+}
+
 .date{
 	padding-right: 40px;
 	text-align: right;

@@ -109,6 +109,11 @@
 	color: black;
 }
 
+.font{
+	font-size: 17px;
+	font-family: 'DM Serif Display', serif;
+}
+
 #About1{
 	display: none;
 	color: black;

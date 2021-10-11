@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 800px){
 	.navigation span{
-		padding: 8px 8px;
+		padding: 7px 8px;
 	}
 }
 
@@ -123,13 +123,13 @@
 	padding-bottom: 7%;
 	padding-right: 4%;
 	padding-left: 4%;
-	width: 70%;
+	width: 72%;
 	background-color:#D3D3D3 ;
 }
 
 @media screen and (max-width: 800px){
 	.center{
-		width: 78%;
+		width: 90%;
 	}
 }
 
